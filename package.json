@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:no-plugins": "npx webpack --config webpack/no-plugins.config.js"
   },
   "author": "",
   "license": "MIT",

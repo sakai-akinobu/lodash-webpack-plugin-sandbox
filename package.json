@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:no-plugins": "npx webpack --config webpack/no-plugins.config.js"
+    "build:no-plugins": "npx webpack --config webpack/no-plugins.config.js",
+    "build:with-babel-plugin-lodash": "npx webpack --config webpack/with-babel-plugin-lodash.config.js"
   },
   "author": "",
   "license": "MIT",

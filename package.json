@@ -6,7 +6,10 @@
   "scripts": {
     "build:no-plugins": "npx webpack --config webpack/bundle/no-plugins.config.js",
     "build:with-babel-plugin-lodash": "npx webpack --config webpack/bundle/with-babel-plugin-lodash.config.js",
-    "build:with-babel-plugin-lodash-and-lodash-webpack-plugin": "npx webpack --config webpack/bundle/with-babel-plugin-lodash-and-lodash-webpack-plugin.config.js"
+    "build:with-babel-plugin-lodash-and-lodash-webpack-plugin": "npx webpack --config webpack/bundle/with-babel-plugin-lodash-and-lodash-webpack-plugin.config.js",
+    "analyze:no-plugins": "npx webpack --config webpack/analyze/no-plugins.config.js",
+    "analyze:with-babel-plugin-lodash": "npx webpack --config webpack/analyze/with-babel-plugin-lodash.config.js",
+    "analyze:with-babel-plugin-lodash-and-lodash-webpack-plugin": "npx webpack --config webpack/analyze/with-babel-plugin-lodash-and-lodash-webpack-plugin.config.js"
   },
   "author": "",
   "license": "MIT",

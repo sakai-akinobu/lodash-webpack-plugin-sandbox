@@ -24,6 +24,6 @@
     "lodash-webpack-plugin": "^0.11.5",
     "webpack": "^4.39.2",
     "webpack-bundle-analyzer": "^3.4.1",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.12"
   }
 }
